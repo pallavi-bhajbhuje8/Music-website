@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+/* Navigation part */
+nav{
+    background-color:#333;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+nav ul {
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav  ul  li{
+ display: inline-block;
+ margin-top: 10px;
+ 
+} 
+
+nav ul li a{
+color: white;
+text-decoration: none;
+padding: 15px  25px;
+transition: all 0.2;
+}
+nav ul li a:hover{
+background-color: rgb(72, 72, 72);
+}
+#menu-icons{
+    font-size:20px;
+    color: #f4f4f4;
+   
+    display:none;
+}
+#menu{
+    float: right;
+    margin:  10px 20px;
+}
+.repon{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin:  10px 20px;
+    font-size: 17px;
+}
+
+/* Navigation Close */
+
+/*  section Start container-Text  */
+.main-section{
+background-image: url("images/man-with.jpg");
+background-position: center;
+background-size: 140%  140%;
+background-repeat: no-repeat;
+width: 100%;
+height:100vh;
+}
+ 
+.container .container-text{
+      padding-top: 25vh;
+
+}
+.container {
+text-align: center;
+max-width:1297px;
+margin: 0  auto;
+padding: 0  30px;
+}
+
+.container-text h1{
+font-size:65px;
+margin-bottom: 30px;
+font-weight:700;
+color: white;
+}
+.container-text h2{
+    font-size:32px;
+    font-weight:700;
+    margin-bottom: 30px;
+    color: white;
+}
+.small-part{
+    font-size:20px;
+    color: #f4f4f4;
+}
+
+/* end section container-text */
+
+/* Start Music Section */
+.section-part{
+    padding: 30px 0px;
+}
+#Music{
+    background-color:#252529;
+}
+.music-heading{
+font-size: 50px;
+color: whitesmoke;
+font-weight: bold;
+color: whitesmoke;
+text-align: center;
+padding:20px  0px;
+}
+  h3{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:white ;
+}
+.para{
+    font-size:20px;
+    margin-bottom:30px;
+    display: block;
+    line-height:2;
+    text-align:center;
+    color: #f4f4f4;  
+}
+.btn-btn{
+    background-color: #b90415;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    transition: all 0.1;
+}
+.btn-btn:hover{
+    background-color: #d3071b;
+}
+.text-light{
+    font-size: 16px;
+    margin-top: 2rem;
+    color: #f4f4f4;
+}
+.image img{
+    width: 100%;
+}
+/*  End Music Section */
+
+/* Start Video Section */
+
+.video-section{ 
+    color: #333; 
+}
+.video-section  h3{
+    color: #333; 
+    font-size: 2rem;
+    padding-top: 5rem ;
+    font-family:sans-serif;
+}
+.p-texts{
+    color: #333;
+}
+.btn-readme{
+    text-decoration: none;
+    background-color: #103063;
+    color: #f4f4f4;
+    padding: 1.3rem  1rem;
+    transition: all 0.1;
+    margin: 1rem;
+}
+.btn-readme:hover{
+  background-color: #143f85;
+}
+img{
+    width: 100%;
+    margin: 20px   0px;
+}
+/* End Video Section */
+
+/* Start Enterainement Section */
+
+#enterainement{
+    background-image: url("images/blackgirl.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%  100%;
+    width: 100%;
+    height: 70vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Enterainement Section */
+
+/* Start Gift-card Section */
+.gift-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.gift-img img{
+    width: 100%;
+}
+.card-info{
+    text-align: justify;
+    color: #333;
+    margin-left: 50px;
+}
+.card-info h2{
+    margin: 20px 0px;
+}
+.card-text{
+    margin-top: 10px;
+}
+hr{
+    color: #f4f4f4;
+    margin-top: 20px;
+}
+.fa-chevron-right{
+    margin: 10px 5px  0px  0px ;
+    
+}
+.btn-redeem{
+    text-decoration: none;
+    color: #333;
+}
+/* End Gift-card Section */
+
+/* Start footer part */
+
+footer{
+    width: 100%;
+    background-color: #252529;
+    height: 30vh;
+}
+.footer-column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-column ul li:first-child{
+    border-bottom: 1px solid rgb(68, 68, 68);
+    margin: 20px  0px;
+    padding-bottom:5px;
+    text-align: left;
+    font-size: 20px;
+
+}
+.footer-column ul   li{
+    list-style-type: none;
+    text-align: left;
+    color: #f4f4f4;
+    margin-top: 15px;
+}
+.footer-column ul li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    text-align: left;
+}
+/* End  footer part */
+
+
+/* Copyright */
+.copyright{
+    height: 50px;
+   background-color: #333;
+   text-align: center;
+   color: #f4f4f4;
+    padding-top: 20px;
+}
+/* Start @Media Queray */
+/* @media(max-width:1285px) {
+   
+    nav  ul  li{
+        display: inline-block;
+     
+        
+       } 
+
+    
+} */
+/* @media (max-width:991px) {
+    nav  ul  li{
+        display: inline-block;
+       } 
+} */
+@media screen  and (max-width:575px){
+    #menu-icons{
+        display: block;
+    }
+    nav  ul  li{
+        display: none;
+        
+       }
+       .main-section{
+        width: 100%;
+        height:50vh;
+        } 
+        .container-text h1{
+            font-size:40px;
+            margin-bottom:20px;
+            font-weight:700;
+        }
+        .container .container-text{
+            padding-top:10vh;
+      
+      }
+      .small-part{
+        display: none;
+    }
+    .container-text h2{
+        font-size:27px;
+        font-weight:700;
+        margin-bottom: 15px;
+    }
+    .music-heading{
+        font-size: 40px;
+        padding:10px  0px;
+        }
+
+
+
+.gift-card {
+    display: block;
+}
+.card-img{
+    width: 100%;
+    text-align: center;
+}
+
+
+footer{
+    display:none;
+}
+}
